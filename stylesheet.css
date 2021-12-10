@@ -1,0 +1,61 @@
+.textbox {
+    position: fixed;
+    border: 1px solid black;
+    height: 25vh;
+    width: 75vw;
+    bottom: 10vh;
+    left: 12.5vw;
+}
+
+.backButton, .nextButton {
+    position: fixed;
+    width: 10vw;
+    height: 5vh;
+    min-width: 100px;
+    min-height: 50px;
+    bottom: 2.5vh;
+}
+
+.backButton {
+    position: fixed;
+    left: 38vw;
+}
+
+.nextButton {
+    position: fixed;
+    right: 38vw;
+}
+
+.backgroundImage {
+    width: 100vw;
+    height: 100vh; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    object-fit: cover;
+}
+
+.scrollImage {
+    width: 177vh;
+    height: 20vw;
+    position: fixed;
+    bottom: 2vh;
+    left: 11vh;
+}
+
+.firstCharacterStyle {
+    height: 500px;
+    z-index: 100;
+    top: 50vh;
+    left: 50vh;
+    position: fixed;
+}
+
+.secondCharacterStyle {
+    height: 500px;
+    z-index: 80;
+    top: 50vh;
+    left: 50vh;
+    position: fixed;
+}
